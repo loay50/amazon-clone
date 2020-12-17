@@ -6,7 +6,8 @@
    top: 0;
    z-index: 100;
    padding: 10px;
-   min-width: 430px;
+   min-width: 488px;
+
 }
 
 .header__nav{
@@ -22,19 +23,26 @@
 .header__optionBasket{
     display: flex;
     align-items: center;
+    object-fit: contain;
+
 }
 .header__basketCount{
     margin-left: 10px;
     margin-right: 10px;
+    object-fit: contain;
+
 }
 
 .header__optionLineOne{
     font-size: 10px;
+    object-fit: contain;
+
 }
 
 .header__optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+    object-fit: contain;
 }
 
 .header__link{
@@ -51,6 +59,7 @@
 .header__search{
     display: flex;
     flex: 1;
+    min-width: 108px;
 }
 .header__searchInput{
     height: 12px;

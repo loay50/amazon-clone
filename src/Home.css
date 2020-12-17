@@ -2,7 +2,7 @@
     width: 100%;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)) ;
     max-width: 1500px;
-    min-width: 430px;
+    min-width: 505px;
 
     z-index: -1;
     margin-bottom: -95px;
@@ -13,12 +13,16 @@
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
+    min-width: 488px;
+
 }
 
 .home{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    min-width: 505px;
+
 
     
 
